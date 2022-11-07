@@ -1,0 +1,5 @@
+{"records": [{
+    "jsonSchemaLocation": "/rad.module/Service Descriptors/rad.module.Resource-Resource.json",
+    "conversionType": "linked",
+    "xsdSchemaTargetNamespace": "http://www.example.org/students"
+}]}

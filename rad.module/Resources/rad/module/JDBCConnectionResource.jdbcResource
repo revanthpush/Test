@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jdbc="http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmlns:subject="http://xsd.tns.tibco.com/trinity/models/identity/subject" xmi:id="_XHaJUVv5Ee22xuPUskRkcA" name="rad.module.JDBCConnectionResource" type="jdbc:JdbcDataSource">
+  <jndi:reference xmi:id="_XJHZgFv5Ee22xuPUskRkcA" key="subjectJndiName" type="subject:SubjectConfiguration" value=""/>
+  <jndi:configuration xsi:type="jdbc:JdbcDataSource" xmi:id="_XJHZgVv5Ee22xuPUskRkcA" username="postgres" password="#!OVZ169AcJ1wUuNxtGscxQCRZGgkATCVzK9B7WU9gfkg=">
+    <connectionConfig xsi:type="jdbc:NonXaConnection" xmi:id="_XJJOsFv5Ee22xuPUskRkcA" jdbcDriver="org.postgresql.Driver" dbURL="jdbc:postgresql://localhost:5432/postgres"/>
+  </jndi:configuration>
+</jndi:namedResource>

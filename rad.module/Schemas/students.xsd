@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/students" xmlns:tns="http://www.example.org/students" elementFormDefault="qualified">
+
+    <element name="Input" type="tns:req"></element>
+    
+    <complexType name="req">
+    	<sequence>
+    		<element name="id" type="string"></element>
+    		<element name="name" type="string"></element>
+    	</sequence>
+    </complexType>
+
+    
+
+
+    <element name="Response" type="tns:res"></element>
+    
+    <complexType name="res">
+    	<sequence>
+    		<element name="message" type="string"></element>
+    	</sequence>
+    </complexType>
+</schema>
